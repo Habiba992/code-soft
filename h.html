@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="./h.css">
+   
+<body>
+  <div class="calculator">
+    <div class="display" id="display"></div>
+    <div class="buttons">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="deleteLast()">CE</button>
+        <button onclick="inputOperator('/')">/</button>
+        <button onclick="inputOperator('*')">*</button>
+
+        <button onclick="inputNumber(7)">7</button>
+        <button onclick="inputNumber(8)">8</button>
+        <button onclick="inputNumber(9)">9</button>
+        <button onclick="inputOperator('-')">-</button>
+
+        <button onclick="inputNumber(4)">4</button>
+        <button onclick="inputNumber(5)">5</button>
+        <button onclick="inputNumber(6)">6</button>
+        <button onclick="inputOperator('+')">+</button>
+
+        <button onclick="inputNumber(1)">1</button>
+        <button onclick="inputNumber(2)">2</button>
+        <button onclick="inputNumber(3)">3</button>
+        <button onclick="calculateResult()">=</button>
+
+        <button onclick="inputNumber(0)" style="grid-column: span 2;">0</button>
+        <button onclick="inputDecimal()">.</button>
+    </div>
+</div>
+
+<script src="./h.js"></script>
+</body>
+
+</html>
+
+
+
